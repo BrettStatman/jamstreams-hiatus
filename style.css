@@ -1,7 +1,12 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 	background: #E1EBDA;
 	color: rgb(41, 48, 51);
-	font-size: 20px;
+	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +19,13 @@ body {
 
 .box__inner {
 	background: rgb(162, 229, 121);
-	padding: 15px 25px;
+	padding: 50px;
+    text-align: center;
+}
+
+.box__inner p.top {
+    font-size: 28px;
+    margin-bottom: 22px;
 }
 
 .box__inner a {
